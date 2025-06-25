@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
-// import { Link as RouterLink } from "react-router-dom"; // <--- HAPUS ATAU KOMEN INI
+
 
 const links = [
   { name: "Home", to: "home", type: "scroll" },
   { name: "About", to: "about", type: "scroll" },
-  { name: "Skills", to: "skills", type: "scroll" }, // <--- UBAH TO DAN TYPE MENJADI 'scroll'
+  { name: "Skills", to: "skills", type: "scroll" }, 
   { name: "Project", to: "project", type: "scroll" },
 ];
 
@@ -42,7 +42,6 @@ export default function Navbar() {
           </Link>
           <div className="flex gap-8">
             {links.map((link) => (
-              // Karena semua sekarang type "scroll", kita tidak perlu conditional rendering lagi
               <Link
                 key={link.name}
                 to={link.to}
@@ -79,9 +78,8 @@ export default function Navbar() {
           borderTop: "1px solid #232323"
         }}
       >
-        <div className="flex items-center justify-between h-16 px-13">
+        <div className="flex items-center justify-between h-16 px-1">
           {links.map((link) => (
-            // Karena semua sekarang type "scroll", kita tidak perlu conditional rendering lagi
             <Link
               key={link.name}
               to={link.to}
