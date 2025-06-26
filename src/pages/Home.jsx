@@ -64,7 +64,7 @@ export const Home = () => {
         {/* Main Content */}
         <main className="relative z-30 flex items-center justify-start md:justify-end pr-9 md:pr-20 lg:pr-10 min-h-full pt-[150px]">
           <div className="text-white text-left md:text-right p-9 max-w-lg md:max-w-xl ml-[10px] md:ml-0">
-            <p className="text-xl md:text-2xl font-medium mb-2 description-text">Hi! I'm</p>
+            <p className="text-xl md:text-2xl font-medium mb-2 description-text">Hello! I'm</p>
             <h1 className="text-5xl md:text-7xl font-extrabold mb-4">Azida Kautsar</h1>
             <div className="text-3xl md:text-4xl font-bold mb-6">
               <TypeAnimation
