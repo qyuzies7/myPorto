@@ -82,7 +82,7 @@ export const Home = () => {
 
             <div className="flex justify-start md:justify-end gap-4 mt-8">
               <a
-                href="www.linkedin.com/in/azidakautsar"
+                href="https://www.linkedin.com/in/azidakautsar/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
